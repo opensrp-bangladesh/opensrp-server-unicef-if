@@ -1,1 +1,0 @@
-INSERT INTO report.dim_location (state, district, taluka, phc, subCenter, village) (SELECT 'Karnataka', 'Koppal', 'Kustagi', (SELECT ID FROM report.dim_phc WHERE phcIdentifier='phc_mudenoor'), 'muddalgundi', 'kalmalli_thanda');
