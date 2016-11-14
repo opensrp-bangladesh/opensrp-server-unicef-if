@@ -1,0 +1,41 @@
+{
+    "name": "child_measles1",
+    "absolute": true,
+    "milestones": [
+    	{
+            "name": "child_measles1",
+            "scheduleWindows": {
+            	"earliest": ["273 Days"],
+                "due": ["364 Days"],
+                "late": ["1825 Days"],
+                "max": ["1826 Days"]
+            },
+            "alerts": [
+            	{
+                    "window": "earliest",
+                    "offset": ["0 Days"],
+                    "interval": ["1 Day"],
+                    "count": "273"
+                },
+                {
+                    "window": "due",
+                    "offset": ["273 Days"],
+                    "interval": ["1 Day"],
+                    "count": "91"
+                },
+                {
+                    "window": "late",
+                    "offset": ["364 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1461"
+                },
+                {
+                    "window": "max",
+                    "offset": ["1825 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }
+            ]
+        }
+    ]
+}        

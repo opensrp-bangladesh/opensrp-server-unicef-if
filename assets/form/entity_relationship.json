@@ -1,0 +1,10 @@
+[
+  {
+    "parent": "household",
+    "child": "members",
+    "field": "wife",
+    "kind": "one_to_many",
+    "from": "household.id",
+    "to": "members.relationalid"
+  }
+]

@@ -10,3 +10,5 @@ target/
 logfile
 *.log*
 .springBeans
+assets/multimedia/
+

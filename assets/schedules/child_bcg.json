@@ -1,0 +1,36 @@
+{
+    "name": "child_bcg",
+    "absolute": true,
+    "milestones": [
+    	{
+            "name": "child_bcg",
+            "scheduleWindows": {
+            	"earliest": ["0 Days"],
+                "due": ["28 Days"],
+                "late": ["365 Days"],
+                "max": ["366 Days"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["0 Days"],
+                    "interval": ["1 Day"],
+                    "count": "28"
+                },
+                {
+                    "window": "late",
+                    "offset": ["28 Days"],
+                    "interval": ["1 Day"],
+                    "count": "337"
+                },
+                {
+                    "window": "max",
+                    "offset": ["365 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }
+                
+            ]
+        }
+    ]
+}

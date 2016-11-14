@@ -1,0 +1,41 @@
+{
+    "name": "child_opv2",
+    "absolute": true,
+    "milestones": [
+    	{
+            "name": "child_opv2",
+            "scheduleWindows": {
+            	"earliest": ["28 Days"],
+                "due": ["42 Days"],
+                "late": ["1825 Days"],
+                "max": ["1826 Days"]
+            },
+            "alerts": [
+            	{
+                    "window": "earliest",
+                    "offset": ["0 Days"],
+                    "interval": ["1 Day"],
+                    "count": "28"
+                },
+                {
+                    "window": "due",
+                    "offset": ["28 Days"],
+                    "interval": ["1 Day"],
+                    "count": "14"
+                },
+                {
+                    "window": "late",
+                    "offset": ["42 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1783"
+                },
+                {
+                    "window": "max",
+                    "offset": ["1825 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }             
+            ]
+        }
+    ]
+}        

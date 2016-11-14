@@ -1,0 +1,35 @@
+{
+    "name": "Woman_BNF",
+    "absolute": true,
+    "milestones": [
+    	{
+            "name": "Woman_BNF",
+            "scheduleWindows": {
+            	"earliest": ["0 Days"],
+                "due": ["20000 Days"],
+                "late": ["20001 Days"],
+                "max": ["20002 Days"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["0 Days"],
+                    "interval": ["1 Day"],
+                    "count": "20000"
+                },
+                {
+                    "window": "late",
+                    "offset": ["20000 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                },
+                {
+                    "window": "max",
+                    "offset": ["20001 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }                
+            ]
+        }
+    ]
+}

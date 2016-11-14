@@ -1,0 +1,41 @@
+{
+    "name": "Woman_TT5",
+    "absolute": true,
+    "milestones": [
+    	{
+            "name": "Woman_TT5",
+            "scheduleWindows": {
+            	"earliest": ["364 Days"],
+                "due": ["378 Days"],
+                "late": ["20378 Days"],
+                "max": ["20379 Days"]
+            },
+            "alerts": [
+            	{
+                    "window": "earliest",
+                    "offset": ["0 Days"],
+                    "interval": ["1 Day"],
+                    "count": "364"
+                },
+                {
+                    "window": "due",
+                    "offset": ["364 Days"],
+                    "interval": ["1 Day"],
+                    "count": "14"
+                },
+                {
+                    "window": "late",
+                    "offset": ["378 Days"],
+                    "interval": ["1 Day"],
+                    "count": "20000"
+                },
+                {
+                    "window": "max",
+                    "offset": ["20378 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }
+            ]
+        }
+    ]
+}      

@@ -1,0 +1,36 @@
+{
+    "name": "Woman_TT1",
+    "absolute": true,
+    "milestones": [   	
+        {
+            "name": "Woman_TT1",
+            "scheduleWindows": {
+            	"earliest": ["0 Days"],
+                "due": ["84 Days"],
+                "late": ["20084 Days"],
+                "max": ["20085 Days"]
+            },
+            "alerts": [
+                {
+                    "window": "due",
+                    "offset": ["0 Days"],
+                    "interval": ["1 Day"],
+                    "count": "84"
+                },
+                {
+                    "window": "late",
+                    "offset": ["84 Days"],
+                    "interval": ["1 Day"],
+                    "count": "20000"
+                },
+                {
+                    "window": "max",
+                    "offset": ["20084 Days"],
+                    "interval": ["1 Day"],
+                    "count": "1"
+                }
+                
+            ]
+        }
+    ]
+}
